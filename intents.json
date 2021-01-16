@@ -1,0 +1,8 @@
+{"intents":[
+	{
+		"tag": "Start up",
+		"patterns": ["Hi", "Hello", "What's up", "Hey", "Is anyone here?"],
+		"responses":["Hi", "Hello", "Hello, what can I do for you?", "Hello, how can I help"]
+	}
+]}
+
