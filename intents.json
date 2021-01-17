@@ -1,8 +1,97 @@
-{"intents":[
-	{
-		"tag": "Start up",
-		"patterns": ["Hi", "Hello", "What's up", "Hey", "Is anyone here?"],
-		"responses":["Hi", "Hello", "Hello, what can I do for you?", "Hello, how can I help"]
-	}
-]}
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi", 
+				"Hello", 
+				"What's up", 
+				"Hey", 
+				"Is anyone here?"],
+			"responses":[
+				"Hello", 
+				"Hello, what can I do for you?", 
+				"Hello, how can I help?",
+				"Hi, how can I help you?"
+			]
+		},
+		{
+			"tag": "directions",
+			"patterns": [
+				"I am lost",
+				"How do I get to classes?",
+				"I don't know where my class is"
+			],
+			"responses": [
+				"Click on the link to find the map https://www.ualberta.ca/maps.html?l=53.522898,-113.525575&z=15&campus=north_campus",
+				"Type the name of the building in the link https://www.ualberta.ca/maps.html?l=53.522898,-113.525575&z=15&campus=north_campus"
+			]
+		},
+		{
+			"tag": "gym",
+			"patterns": [
+				"How can I sign up for the gym?",
+				"I wanna go to the gym",
+				"I need to exercise"
+			],
+			"responses": [
+				"Here you can sign up for the gym https://www.activityreg.ualberta.ca/UOFA/public/category/browse/FITN/?doSearch=true&utm_source=uab&utm_medium=btn&utm_campaign=hflc-page&utm_content=hflc-reg",
+				"Here is the online activity registration portal https://www.activityreg.ualberta.ca/uofa/public"
+			]
+		},
+		{
+			"tag": "residence",
+			"patterns": [
+				"I don't know where to live",
+				"Can I live on campus?"
+			],
+			"responses": [
+				"Here you can find about more living on campus https://www.ualberta.ca/residence/index.html"
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thank you",
+				"Thanks!",
+				"Thank you so much!"
+			],
+			"responses": [
+				"You are welcome!",
+				"No problem",
+				"Anytime!",
+				"No worries!"
+			]
+		},
+		{
+			"tag": "covid",
+			"patterns": [
+				"bye", 
+				"Good bye"],
+			"responses":[
+				"To learn more about covid at UofA go to https://www.ualberta.ca/covid-19/index.html", 
+				"For updates, go to https://www.ualberta.ca/covid-19/updates/2021/01/2021-01-15-updates-for-week-ending-jan-15.html"]
+		},
+		{
+			"tag": "onecard",
+			"patterns": [
+				"How do I get my onecard?",
+				"I don't know what onecard is",
+				"I need to add funds on my onecard"
+			],
+			"responses": [
+				"Learn more about onecard on https://www.ualberta.ca/onecard/index.html",
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"bye", 
+				"Good bye"],
+			"responses":[
+				"Bye bye :)", 
+				"Good bye!"]
+		}
+	]
+}
 
