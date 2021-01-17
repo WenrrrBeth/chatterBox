@@ -91,7 +91,58 @@
 			"responses":[
 				"Bye bye :)", 
 				"Good bye!"]
-		}
+		},
+		{
+		"tag": "eclass",
+		"patterns": [
+		  "Where is eclass?",
+		  "How to access enrolled courses?",
+		  "Where can I see my classes?",
+		  "How to access eclass?"
+		],
+		"responses": [
+		  "Login to eclass using this link: https://login.ualberta.ca/module.php/core/loginuserpass.php?AuthState=_ef5798cf72cf36448b8d7f13a175b42218a0402313%3Ahttps%3A%2F%2Flogin.ualberta.ca%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Feclass.srv.ualberta.ca%252Fsp%26RelayState%3Dhttps%253A%252F%252Feclass.srv.ualberta.ca%252Flogin%252Findex.php%26cookieTime%3D1610851285",
+		  "Link to eclass: https://login.ualberta.ca/module.php/core/loginuserpass.php?AuthState=_ef5798cf72cf36448b8d7f13a175b42218a0402313%3Ahttps%3A%2F%2Flogin.ualberta.ca%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Feclass.srv.ualberta.ca%252Fsp%26RelayState%3Dhttps%253A%252F%252Feclass.srv.ualberta.ca%252Flogin%252Findex.php%26cookieTime%3D1610851285"
+		]
+	  },
+	  {
+		"tag": "beartracks",
+		"patterns": [
+		  "How to enroll in courses?",
+		  "What is beartracks?",
+		  "How to sign up for classes?",
+		  "How to pay tuition fees?",
+		  "How to access beartracks?"
+		],
+		"responses": [
+		  "Link to beartracks: https://www.beartracks.ualberta.ca",
+		  "We accept most major credit cards, and Paypal"
+		]
+	  },
+	  {
+		"tag": "programs",
+		"patterns": [
+		  "Which programs are offered?",
+		  "What programs are available?",
+		  "Is this program offered?"
+		],
+		"responses": [
+		  "The Uiversity of Alberta offers a variety of programs which you can find here:  https://apps.admissions.ualberta.ca/programs/",
+		  "You can access a list of all programs offered at the Univeristy of Alberta through this link: https://apps.admissions.ualberta.ca/programs/"
+		]
+	  },
+	  {
+		"tag": "apply",
+		"patterns": [
+		  "I want to apply to the university",
+		  "How can I apply",
+		  "Application for undergraduate"
+		],
+		"responses": [
+		  "You can apply for undergraduate studies at the UofA through this link: https://www.ualberta.ca/admissions/international/admission/index.html?",
+		  "Follow this link to apply for undergraduate studies at the University of Alberta: https://www.ualberta.ca/admissions/international/admission/index.html?"
+		]
+	  }
 	]
 }
 
