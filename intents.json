@@ -66,8 +66,8 @@
 		{
 			"tag": "covid",
 			"patterns": [
-				"bye", 
-				"Good bye"],
+				"information about covid", 
+				"resources for covid-19"],
 			"responses":[
 				"To learn more about covid at UofA go to https://www.ualberta.ca/covid-19/index.html", 
 				"For updates, go to https://www.ualberta.ca/covid-19/updates/2021/01/2021-01-15-updates-for-week-ending-jan-15.html"
@@ -88,7 +88,8 @@
 			"tag": "goodbye",
 			"patterns": [
 				"bye", 
-				"Good bye"],
+				"Goodbye",
+				"see you later!"],
 			"responses":[
 				"Bye bye :)", 
 				"Good bye!"
@@ -118,7 +119,7 @@
 			],
 			"responses": [
 				"Link to beartracks: https://www.beartracks.ualberta.ca",
-				"We accept most major credit cards, and Paypal"
+				"Here's a link to beartracks: https://www.beartracks.ualberta.ca"
 			]
 		},
 		{
