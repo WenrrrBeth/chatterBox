@@ -4,7 +4,7 @@ Project created under 24 hours in hackathon HackED2021.
 In a team of three, we created a artificially intelligent chatbot that can answer basic questions for University of Alberta undergrad students.
 
 
-<br />NLP process:
+<br />NLP steps:
 1. tokenize
 2. lower all characters (case insensitive)
 3. stem the words
