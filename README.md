@@ -11,5 +11,5 @@ In a team of three, we created a chat bot that can answer basic questions for Un
 4. exclude punctuations
 
 <br />Model: <br /> <br />
-&nbsp;&nbsp;&nbsp;&nbsp; ![alt text](https://github.com/WenrrrBeth/chatterBox/chatbox_model.png)
+&nbsp;&nbsp;&nbsp;&nbsp; ![alt text](https://github.com/WenrrrBeth/chatterBox/blob/master/chatbox_model.png)
 
